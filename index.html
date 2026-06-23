@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Duck Run</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game" width="800" height="300"></canvas>
+    <div id="hud">
+      <span id="score">0 m</span>
+      <span id="best">Mejor: 0 m</span>
+      <button id="mute-btn" title="Silenciar música">🔊</button>
+    </div>
+    <div id="overlay">
+      <h1>🦆 Duck Run</h1>
+      <p>Pulsa <b>ESPACIO</b> / toca la pantalla para saltar</p>
+      <p class="small">Esquiva los obstáculos y recorre la mayor distancia posible</p>
+      <button id="start-btn">Jugar</button>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
